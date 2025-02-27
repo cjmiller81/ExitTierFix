@@ -13,7 +13,7 @@ export interface Column {
   id: string;
   label: string;
   minWidth?: number;
-  align?: 'right' | 'left' | 'center';
+  align?: 'right' | 'left' | 'center' | 'inherit' | 'justify';
 }
 
 export interface DynamicTableProps {

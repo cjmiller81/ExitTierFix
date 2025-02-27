@@ -19,10 +19,10 @@ import {
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { Add as AddIcon, Delete as DeleteIcon } from '@mui/icons-material';
-import { TierData } from './types';
+import { TierData, Column } from './types';
 
 // Create the columns configuration
-const columns = [
+const columns: Column[] = [
   { id: 'addTier', label: 'Add Tier', minWidth: 80, align: 'center' },
   { id: 'exitTier', label: 'Exit Tier', minWidth: 80, align: 'center' },
   { id: 'percentPosition', label: '% Position', minWidth: 100, align: 'center' },
